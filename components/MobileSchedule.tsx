@@ -1,9 +1,12 @@
 import React from "react";
+import ViewSelector from "./ViewSelector";
 
 const MobileSchedule = () => {
   return (
-    <div>
-      <h1>MobileSchedule</h1>
+    <div className="h-screen flex flex-col bg-background">
+      <div className="p-4 border-b bg-background">
+        <ViewSelector />
+      </div>
     </div>
   );
 };
