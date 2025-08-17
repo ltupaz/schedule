@@ -12,7 +12,7 @@ const MobileSchedule = () => {
         <ViewSelector currentView={currentView} onViewChange={setCurrentView} />
       </div>
       <div className="flex-1 overflow-hidden">
-        {currentView}
+        {/* {currentView} */}
         <DailyView />
       </div>
     </div>
